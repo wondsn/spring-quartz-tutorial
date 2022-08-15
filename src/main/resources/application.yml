@@ -1,0 +1,6 @@
+spring:
+  quartz:
+    scheduler-name: QuartzScheduler
+    job-store-type: memory
+    properties:
+      org.quartz.threadPool.threadCount: 5
